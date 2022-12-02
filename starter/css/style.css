@@ -8,6 +8,11 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+:root {
+  --light-green: #33FFDA;
+  --dark: #333A39 ;
+  --white: #fff;
+}
 
 h1,
 h2,
@@ -17,7 +22,60 @@ h5,
 h6 {
   margin: 0;
 }
+ul,
+ol {
+  list-style-type: none;
+}
 
 p {
   margin: 0;
+}
+.logo {
+  background-color: var(--light-green);
+  height: 200px;
+  background-image: url('../images/mypic.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo h2 {
+  color: var(--dark);
+  float: right;
+  background-color: var(--light-green);
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark);
+}
+ul li {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.navigation ul li {
+  float: left;
+}
+
+.navigation ul li a {
+  display: block;
+  color: var(--white);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: var(--light-green);
+  color: var(--dark);
+}
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 150px;
+  background-position: center;
+  background-repeat: repeat;
 }
