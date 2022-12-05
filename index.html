@@ -1,66 +1,130 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ahmed // Web Developer</title>
-  <link rel="stylesheet" href="./starter/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./starter/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ahmed's Portfolio</title>
 </head>
-
 <body>
-  <header>
-    <img src="./starter/images/mypic.JPG" alt="logo" class="logo">
-    <nav>
-      <ul class="navLinks">
-        <li><a href="#aboutme">About me</a></li>
-        <li><a href="#work">My work</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#resume">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <h2>Ahmed Sharif Mahamed</h2>
-    <div>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section about" id="about">
-      <h2>About Me</h2>
-      <p>
-        Hello World! I'm Ahmed Sharif Mahamed, a Front-End Web Developer 
-        based in London United Kingdom. I love combining the worlds of logic 
-        and creative design to make eye-catching, accessible, and user- friendly 
-        websites and applications.
-      </p>
-    </section>
-
-    <!-- portfolio container -->
-    <h2>Work</h2>
-    <section class="page-section work" id="work">
-      <div class="project1"><span>Prework Study Guide</span></div>
-      <div class="project2"><span>Module1 Challenge</span></div>
-      <div class="project3"><span>Comming Soon</span></div>
-      <div class="project4"><span>Comming Soon</span></div>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <li>Email: <a href="#">amahamed666@gmail.com</a></li>
-      <li>Phone: <a href="#">+447493395462</a></li>
-      <li>GitHub <a href="#">Ahmed140298</a></li>
-      <li>LinkedIn <a href="#">Comming soon</a></li>
-    </section>
-    <section class="page-section resume" id="resume">
-      <h2>Resume</h2>
-    </section>
-  </main>
+    <header>
+        <a href="#" class="logo">Web <span>Developer</span></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <div class="menu" id="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="description">
+                    <p class="parag1">Hello, my name Is</p>
+                    <h1>Ahmed Sharif Mahamed!</h1>
+                    <p class="parag2">I am a web <span>developer</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <div class="about-img">
+                <img src="./starter/images/mypic.JPG" alt="my picture">
+            </div>
+            <div class="content">
+                <h1>About me</h1>
+                <h3>Front-End <span>Developer</span> </h3>
+                <p>
+                    Hello world! I'm Ahmed, a Front-End 
+                    Web Developer based in London United Kingdom. I love combining 
+                    the worlds of logic and creative design to make eye-catching, 
+                    accessible, and user- friendly websites nd applications.
+                </p>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="work-content">
+                <h2>My work</h2>
+                <p>The latest projects that i have completed.</p>
+            </div>
+            <div class="projects">
+                <div class="row">
+                    <img src="./starter/images/02-portfolio-1.jpg" alt="project1">
+                    <div class="project-content">
+                        <h4>Prework Study Guide</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src=".//starter/images/02-portfolio-2.jpg" alt="project2">
+                    <div class="project-content">
+                        <h4>Modulle1 Challenge</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./starter/images/02-portfolio-3.jpg" alt="project3">
+                    <div class="project-content">
+                        <h4>Comming Soon</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./starter/images/02-portfolio-4.jpg" alt="project4">
+                    <div class="project-content">
+                        <h4>Comming Soon</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./starter/images/projec5.jpeg" alt="project5">
+                    <div class="project-content">
+                        <h4>Comming Soon</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="./starter/images/project6.jpeg" alt="project6">
+                    <div class="project-content">
+                        <h4>Comming Soon</h4>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-info">
+                <h2>Contact <span>Me!</span> </h2>
+                <div class="contact-list">
+                    <ul>
+                        <li><a href="#">Phone: 07493395462</a></li>
+                        <li><a href="#">Email: amahamed666@gmail.com</a></li>
+                        <li><a href="#">GitHub: Ahmed140298</a></li>
+                        <li><a href="#">LinkedIn: Comming Soon</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socials">
+                <p>My Social Media</p>
+                <p>Follow me on social media</p>
+                <div class="social-media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>CopyRight By Ahmed Sharif Mahamed 2022</p>
+        </footer>
+    </main>
 </body>
 </html>
