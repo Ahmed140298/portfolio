@@ -28,8 +28,11 @@ Feel free to use your own colors and images.
 
 
 * The URL of the deployed application.
+* https://ahmed140298.github.io/portfolio/![image](https://user-images.githubusercontent.com/116595107/206019357-79ae0350-4783-4015-b098-faefb9674dd7.png)
+
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+* https://github.com/Ahmed140298/portfolio
 
 ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
