@@ -1,0 +1,44 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.project-item {
+    background: var(--projectCard);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.project-item:hover {
+    border-color: var(--Text-color);
+    background: transparent;
+}
+.project-img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.project-item h3 {
+    margin: 1.2rem 0 2rem;
+}
+.item-cta {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+/* Media Query for medium size screen */
+@media screen and (max-width: 1024px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+/* Media Query for medium size screen */
+@media screen and (max-width: 600px) {
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+   
+}

@@ -1,0 +1,97 @@
+.about {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+.about-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--bg-color), transparent);
+  display: grid;
+  place-items: center;
+}
+.img {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+}
+.img:hover {
+  transition: var(--transition);
+  transform: rotate(0);
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.card {
+  background: var(--projectCard);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.card:hover {
+  background: transparent;
+  border-color: var(--projectColor);
+}
+
+.icons {
+  color: var(--Text-color);
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  padding: 1px;
+}
+.about-content small {
+  font-size: 0.7rem;
+  color: var(--lightgray);
+}
+.about-content p {
+  margin: 2rem 0 2.5rem;
+  color: var(--Text-color);
+}
+/* Media Query for medium size screen */
+@media screen and (max-width: 1024px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about-img {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+  .cards  small{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Media Query for small size screen */
+@media screen and (max-width: 600px) {
+    .about-img {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .about-content p {
+        margin: 1.5rem 0;
+    }
+    .img {
+        height: 12rem;
+        width: 14rem;
+    }
+    /* .card small {
+        display: flex;
+        flex: row;
+    } */
+}
