@@ -13,7 +13,7 @@ const Home = () => {
         <section className="container header" id="home">
           <h1 className="stroke-text">Hello There!</h1>
           <h5>I'm Ahmed Mahamed</h5>
-          <h5 className="text-light">FrontEnd Developer</h5>
+          <h5 className="text-light">Frontend Developer</h5>
           <div className="cta">
             <a className="btn" href={CV} download>
               Download CV

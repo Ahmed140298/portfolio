@@ -7,6 +7,7 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiJquery } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import {IoLogoNodejs} from 'react-icons/io';
 
 const About = () => {
   return (
@@ -25,12 +26,24 @@ const About = () => {
         </div>
         <div className="about-content">
           <h1 className="stroke-text">Technical Skills</h1>
+          <p>
+            Through my studies, I've gained a solid understanding of computer science concepts. 
+            In addition I have dedicated a lot of my free time to learn modern web development 
+            concepts and general porgramming skills.
+            As a self-motivated learner, I've explored a variety of online resources, including Edx skills bootcamp. 
+            First I started with The Web Development Bootcamp that gave me all the skills I need to 
+            start building websites from scratch. From there, I went on to complete the Modern React 
+            with Redux course that helped me master all the fundamental concepts behind React and Redux 
+            applications.
+          </p>
           <div className="cards">
             <article className="card">
               <AiFillHtml5 className="icons"/>
               <ImCss3 className="icons"/>
+              <IoLogoNodejs className="icons"/>
               <small>HTML5</small>
-              <small> CSS3</small>
+              <small> CSS3</small><br />
+              <small>NodeJs</small>
             </article>
             <article className="card">
               <SiJquery className="icons"/>
